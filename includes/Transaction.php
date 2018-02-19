@@ -5,7 +5,7 @@ class Transaction {
 	protected $date;
 	protected $description;
 
-	public function __construct($amount, $date, $description) {
+	public function __construct(int $amount, $date, string $description) {
 		$this->amount = $amount;
 		$this->date = $date;
 		$this->description = $description;
